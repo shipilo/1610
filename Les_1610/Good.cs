@@ -1,6 +1,6 @@
 ﻿namespace Les_1610
 {
-    abstract class Good
+    abstract class Good : Property
     {
         public string Name;
         public bool EnabledForSale;

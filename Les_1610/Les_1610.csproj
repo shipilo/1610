@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="EduMaterial.cs" />
     <Compile Include="Good.cs" />
+    <Compile Include="Property.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
