@@ -108,14 +108,14 @@ namespace Met_1610
 			{
 				if (!indexes.Contains(Index))
 				{
-					if (Index > 0)
+					if (value > 0)
 					{
 						index = value;
 						indexes.Add(Index);
 					}
 					else
                     {
-						throw new ArgumentOutOfRangeException("Значение может быть только положительным числом.");
+						throw new ArgumentOutOfRangeException("Значение может быть только неотрицательным числом.");
 					}
 				}
 				else
@@ -129,7 +129,7 @@ namespace Met_1610
 			get => high;
 			set
 			{
-				if (high > 0)
+				if (value > 0)
 				{
 					high = value;
 				}
@@ -145,7 +145,7 @@ namespace Met_1610
 			get => storeys;
 			set
 			{
-				if (storeys > 0)
+				if (value > 0)
 				{
 					storeys = value;
 				}
@@ -161,7 +161,7 @@ namespace Met_1610
 			get => aparts;
 			set
 			{
-				if (aparts > 0)
+				if (value > 0)
 				{
 					aparts = value;
 				}
@@ -176,7 +176,7 @@ namespace Met_1610
 			get => entrances;
 			set
 			{
-				if (entrances > 0)
+				if (value > 0)
 				{
 					entrances = value;
 				}
